@@ -1,3 +1,4 @@
+
 # How to install the NVIDIA drivers on Manjaro 21 Linux:
 
 * The purpose of this tutorial is to install the NVIDIA drivers on Manjaro Linux. Installing the NVIDIA driver on Manjaro will increase graphic performance for your computer and enable additional features.
@@ -49,4 +50,4 @@ $ sudo reboot
 ```
 #
 ## Referance:
-it[Website Link](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-manjaro-linux)
+[Website Link](https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-manjaro-linux)
