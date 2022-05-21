@@ -29,11 +29,11 @@ $ sudo pacman -S linux54-headers
 
 $ sudo pacman -S base-devel dkms
 
-#### In this step we will disable the default nouveau drivers. To do so we need to open and edit the /etc/default/grub Grub configuration file.Locate the line starting with GRUB_CMDLINE_LINUX and include the following code nouveau.modeset=0.
+In this step we will disable the default nouveau drivers. To do so we need to open and edit the /etc/default/grub Grub configuration file.Locate the line starting with GRUB_CMDLINE_LINUX and include the following code nouveau.modeset=0.
 
 $ sudo nano /etc/default/grub
 
-#### Alter the GRUB_CMDLINE_LINUX line:
+Alter the GRUB_CMDLINE_LINUX line:
 GRUB_CMDLINE_LINUX="nouveau.modeset=0"
 
 $ sudo update-grub
@@ -42,7 +42,7 @@ $ sudo reboot
 
 $ sudo bash NVIDIA-Linux-x86_64-460.67.run
 
-#### Would you like to register the kernel module sources with DKMS? This will allow DKMS to automatically build a  new module, if you install a different kernel later. ->YES 
+Would you like to register the kernel module sources with DKMS? This will allow DKMS to automatically build a  new module, if you install a different kernel later. ->YES 
 Install NVIDIA's 32-bit compatibility libraries? -> YES
 Would you like to run the nvidia-xconfig utility? -> YES 
 
